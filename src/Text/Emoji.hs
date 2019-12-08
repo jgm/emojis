@@ -1,4 +1,4 @@
-{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE CPP #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
 {- |
@@ -16,7 +16,6 @@ module Text.Emoji ( emojis, emojiFromAlias, aliasesFromEmoji ) where
 import Prelude
 import qualified Data.Map as M
 import Data.Text (Text)
-import Text.Emoji.TH (genEmojis)
 
 emojiMap :: M.Map Text Text
 emojiMap = M.fromList emojis
@@ -39,5 +38,4 @@ aliasesFromEmoji s = M.lookup s emojiAliasMap
 -- | Association list of (alias, emoji) pairs.  Note that the
 -- same emoji may have multiple aliases.
 emojis :: [(Text, Text)]
-emojis = $(genEmojis "emoji.json")
-
+#include "emojis.inc"

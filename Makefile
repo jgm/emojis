@@ -1,5 +1,8 @@
-all:
+all: src/Text/emojis.inc
 	stack test
+
+src/Text/emojis.inc: emoji.json
+	./update.hs > $@
 
 .PHONY: all
 

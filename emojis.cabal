@@ -17,18 +17,14 @@ maintainer:          jgm@berkeley.edu
 copyright:           2019 John MacFarlane
 category:            Text
 build-type:          Simple
-extra-source-files:  emoji.json, README.md, changelog.md
+extra-source-files:  emoji.json, src/Text/emojis.inc, README.md, changelog.md
 cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
   exposed-modules:     Text.Emoji
-                       Text.Emoji.TH
   build-depends:       base >= 4.9 && < 5,
                        text,
-                       bytestring,
-                       template-haskell,
-                       aeson,
                        containers
   default-language:    Haskell2010
   ghc-options:         -Wall -fno-warn-unused-do-bind
