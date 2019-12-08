@@ -19,6 +19,12 @@ import qualified Data.ByteString.Lazy as B
 import Language.Haskell.TH
 import Language.Haskell.TH.Syntax (addDependentFile)
 
+-- | @$(genEmojis "emoji.json")@ resolves to a list
+-- of tuples (emojiname, emojitext) extracted from
+-- @emoji.json@.  The JSON file is assumed to have
+-- the format of @emoji.json@ from the gemoji gem:
+-- a list of objects, each with an @emoji@ field
+-- (string) and an @aliases@ field (array of strings).
 genEmojis :: FilePath -> Q Exp
 genEmojis fp = do
   addDependentFile fp

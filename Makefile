@@ -1,5 +1,5 @@
 all:
-	stack build
+	stack test
 
 .PHONY: all
 

@@ -10,9 +10,9 @@
    Stability   : alpha
    Portability : portable
 
-Emoji symbol lookup from canonical name.
+Emoji symbol lookup from alias, and vice versa.
 -}
-module Text.Emoji ( emojis, getEmoji, getEmojiName ) where
+module Text.Emoji ( emojis, emojiFromAlias, aliasesFromEmoji ) where
 import Prelude
 import qualified Data.Map as M
 import Data.Text (Text)
@@ -21,16 +21,23 @@ import Text.Emoji.TH (genEmojis)
 emojiMap :: M.Map Text Text
 emojiMap = M.fromList emojis
 
-emojiNameMap :: M.Map Text Text
-emojiNameMap = M.fromList [(s,name) | (name,s) <- emojis]
+emojiAliasMap :: M.Map Text [Text]
+emojiAliasMap =
+  foldr (\(alias, s) m -> M.alter (go alias) s m) mempty emojis
+    where
+     go alias Nothing   = Just [alias]
+     go alias (Just as) = Just (alias:as)
 
-getEmoji :: Text -> Maybe Text
-getEmoji name = M.lookup name emojiMap
+-- | Lookup an emoji given its alias.
+emojiFromAlias :: Text -> Maybe Text
+emojiFromAlias name = M.lookup name emojiMap
 
-getEmojiName :: Text -> Maybe Text
-getEmojiName s = M.lookup s emojiNameMap
+-- | Lookup the aliases of an emoji.
+aliasesFromEmoji :: Text -> Maybe [Text]
+aliasesFromEmoji s = M.lookup s emojiAliasMap
 
+-- | Association list of (alias, emoji) pairs.  Note that the
+-- same emoji may have multiple aliases.
 emojis :: [(Text, Text)]
 emojis = $(genEmojis "emoji.json")
-
 
