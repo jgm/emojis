@@ -1,0 +1,38 @@
+name:                emojis
+version:             0.1
+synopsis:            Conversion between emoji characters and their names.
+description:         This package provides functions for converting
+                     emoji names to emoji characters and vice versa.
+                     It differs in three main ways from the 'emoji' package
+                     on Hackage: (a) a different source of data is used
+                     (GitHub's gemoji gem), supporting hundreds more emojis,
+                     including all those supported on GitHub;
+                     (b) bidirectional conversion is supported between emojis
+                     and names; (c) Text is used instead of String.
+homepage:            https://github.com/jgm/emojis#readme
+license:             BSD3
+license-file:        LICENSE
+author:              John MacFarlane
+maintainer:          jgm@berkeley.edu
+copyright:           2019 John MacFarlane
+category:            Text
+build-type:          Simple
+extra-source-files:  emoji.json, README.md, changelog.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Text.Emoji
+                       Text.Emoji.TH
+  build-depends:       base >= 4.9 && < 5,
+                       text,
+                       bytestring,
+                       template-haskell,
+                       aeson,
+                       containers
+  default-language:    Haskell2010
+  ghc-options:         -Wall -fno-warn-unused-do-bind
+
+source-repository head
+  type:     git
+  location: https://github.com/jgm/emojis
