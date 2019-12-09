@@ -1,17 +1,6 @@
 {-# LANGUAGE CPP #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
-{- |
-   Module      : Text.Emoji
-   Copyright   : Copyright (C) 2019 John MacFarlane
-   License     : GNU GPL, version 2 or above
-
-   Maintainer  : John MacFarlane <jgm@berkeley.edu>
-   Stability   : alpha
-   Portability : portable
-
-Emoji symbol lookup from alias, and vice versa.
--}
 module Text.Emoji ( emojis, emojiFromAlias, aliasesFromEmoji ) where
 import Prelude
 import qualified Data.Map as M

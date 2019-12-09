@@ -3,12 +3,16 @@ version:             0.1
 synopsis:            Conversion between emoji characters and their names.
 description:         This package provides functions for converting
                      emoji names to emoji characters and vice versa.
-                     It differs in three main ways from the 'emoji' package
-                     on Hackage: (a) a different source of data is used
-                     (GitHub's gemoji gem), supporting hundreds more emojis,
-                     including all those supported on GitHub;
-                     (b) bidirectional conversion is supported between emojis
-                     and names; (c) Text is used instead of String.
+                     .
+                     How does it differ from the @emoji@ package?
+                     .
+                     -   It supports a fuller range of emojis, including all those
+                         supported by GitHub
+                     -   It supports lookup of emoji aliases from emoji
+                     -   It uses Text rather than String
+                     -   It has a lighter dependency footprint: in particular, it
+                         does not require aeson
+                     -   It does not require TemplateHaskell
 homepage:            https://github.com/jgm/emojis#readme
 license:             BSD3
 license-file:        LICENSE
