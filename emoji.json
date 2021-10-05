@@ -127,6 +127,12 @@
     ]
   },
   {
+    "emoji": "🥲",
+    "aliases": [
+      "smiling_face_with_tear"
+    ]
+  },
+  {
     "emoji": "😋",
     "aliases": [
       "yum"
@@ -217,6 +223,12 @@
     ]
   },
   {
+    "emoji": "😶‍🌫️",
+    "aliases": [
+      "face_in_clouds"
+    ]
+  },
+  {
     "emoji": "😏",
     "aliases": [
       "smirk"
@@ -238,6 +250,12 @@
     "emoji": "😬",
     "aliases": [
       "grimacing"
+    ]
+  },
+  {
+    "emoji": "😮‍💨",
+    "aliases": [
+      "face_exhaling"
     ]
   },
   {
@@ -337,6 +355,12 @@
     ]
   },
   {
+    "emoji": "😵‍💫",
+    "aliases": [
+      "face_with_spiral_eyes"
+    ]
+  },
+  {
     "emoji": "🤯",
     "aliases": [
       "exploding_head"
@@ -352,6 +376,12 @@
     "emoji": "🥳",
     "aliases": [
       "partying_face"
+    ]
+  },
+  {
+    "emoji": "🥸",
+    "aliases": [
+      "disguised_face"
     ]
   },
   {
@@ -760,6 +790,18 @@
     ]
   },
   {
+    "emoji": "❤️‍🔥",
+    "aliases": [
+      "heart_on_fire"
+    ]
+  },
+  {
+    "emoji": "❤️‍🩹",
+    "aliases": [
+      "mending_heart"
+    ]
+  },
+  {
     "emoji": "❤️",
     "aliases": [
       "heart"
@@ -933,6 +975,12 @@
     "emoji": "👌",
     "aliases": [
       "ok_hand"
+    ]
+  },
+  {
+    "emoji": "🤌",
+    "aliases": [
+      "pinched_fingers"
     ]
   },
   {
@@ -1158,6 +1206,18 @@
     ]
   },
   {
+    "emoji": "🫀",
+    "aliases": [
+      "anatomical_heart"
+    ]
+  },
+  {
+    "emoji": "🫁",
+    "aliases": [
+      "lungs"
+    ]
+  },
+  {
     "emoji": "🦷",
     "aliases": [
       "tooth"
@@ -1239,6 +1299,18 @@
     "emoji": "🧔",
     "aliases": [
       "bearded_person"
+    ]
+  },
+  {
+    "emoji": "🧔‍♂️",
+    "aliases": [
+      "man_beard"
+    ]
+  },
+  {
+    "emoji": "🧔‍♀️",
+    "aliases": [
+      "woman_beard"
     ]
   },
   {
@@ -1879,6 +1951,12 @@
     ]
   },
   {
+    "emoji": "🥷",
+    "aliases": [
+      "ninja"
+    ]
+  },
+  {
     "emoji": "👷",
     "aliases": [
       "construction_worker"
@@ -1941,12 +2019,37 @@
   {
     "emoji": "🤵",
     "aliases": [
+      "person_in_tuxedo"
+    ]
+  },
+  {
+    "emoji": "🤵‍♂️",
+    "aliases": [
       "man_in_tuxedo"
+    ]
+  },
+  {
+    "emoji": "🤵‍♀️",
+    "aliases": [
+      "woman_in_tuxedo"
     ]
   },
   {
     "emoji": "👰",
     "aliases": [
+      "person_with_veil"
+    ]
+  },
+  {
+    "emoji": "👰‍♂️",
+    "aliases": [
+      "man_with_veil"
+    ]
+  },
+  {
+    "emoji": "👰‍♀️",
+    "aliases": [
+      "woman_with_veil",
       "bride_with_veil"
     ]
   },
@@ -1960,6 +2063,24 @@
     "emoji": "🤱",
     "aliases": [
       "breast_feeding"
+    ]
+  },
+  {
+    "emoji": "👩‍🍼",
+    "aliases": [
+      "woman_feeding_baby"
+    ]
+  },
+  {
+    "emoji": "👨‍🍼",
+    "aliases": [
+      "man_feeding_baby"
+    ]
+  },
+  {
+    "emoji": "🧑‍🍼",
+    "aliases": [
+      "person_feeding_baby"
     ]
   },
   {
@@ -1978,6 +2099,12 @@
     "emoji": "🤶",
     "aliases": [
       "mrs_claus"
+    ]
+  },
+  {
+    "emoji": "🧑‍🎄",
+    "aliases": [
+      "mx_claus"
     ]
   },
   {
@@ -2915,6 +3042,12 @@
     ]
   },
   {
+    "emoji": "🫂",
+    "aliases": [
+      "people_hugging"
+    ]
+  },
+  {
     "emoji": "👣",
     "aliases": [
       "footprints"
@@ -3005,6 +3138,12 @@
     ]
   },
   {
+    "emoji": "🐈‍⬛",
+    "aliases": [
+      "black_cat"
+    ]
+  },
+  {
     "emoji": "🦁",
     "aliases": [
       "lion"
@@ -3056,6 +3195,12 @@
     "emoji": "🦌",
     "aliases": [
       "deer"
+    ]
+  },
+  {
+    "emoji": "🦬",
+    "aliases": [
+      "bison"
     ]
   },
   {
@@ -3155,6 +3300,12 @@
     ]
   },
   {
+    "emoji": "🦣",
+    "aliases": [
+      "mammoth"
+    ]
+  },
+  {
     "emoji": "🦏",
     "aliases": [
       "rhinoceros"
@@ -3209,6 +3360,12 @@
     ]
   },
   {
+    "emoji": "🦫",
+    "aliases": [
+      "beaver"
+    ]
+  },
+  {
     "emoji": "🦔",
     "aliases": [
       "hedgehog"
@@ -3224,6 +3381,12 @@
     "emoji": "🐻",
     "aliases": [
       "bear"
+    ]
+  },
+  {
+    "emoji": "🐻‍❄️",
+    "aliases": [
+      "polar_bear"
     ]
   },
   {
@@ -3354,6 +3517,18 @@
     ]
   },
   {
+    "emoji": "🦤",
+    "aliases": [
+      "dodo"
+    ]
+  },
+  {
+    "emoji": "🪶",
+    "aliases": [
+      "feather"
+    ]
+  },
+  {
     "emoji": "🦩",
     "aliases": [
       "flamingo"
@@ -3445,6 +3620,12 @@
     ]
   },
   {
+    "emoji": "🦭",
+    "aliases": [
+      "seal"
+    ]
+  },
+  {
     "emoji": "🐟",
     "aliases": [
       "fish"
@@ -3512,15 +3693,27 @@
     ]
   },
   {
-    "emoji": "🐞",
+    "emoji": "🪲",
     "aliases": [
       "beetle"
+    ]
+  },
+  {
+    "emoji": "🐞",
+    "aliases": [
+      "lady_beetle"
     ]
   },
   {
     "emoji": "🦗",
     "aliases": [
       "cricket"
+    ]
+  },
+  {
+    "emoji": "🪳",
+    "aliases": [
+      "cockroach"
     ]
   },
   {
@@ -3545,6 +3738,18 @@
     "emoji": "🦟",
     "aliases": [
       "mosquito"
+    ]
+  },
+  {
+    "emoji": "🪰",
+    "aliases": [
+      "fly"
+    ]
+  },
+  {
+    "emoji": "🪱",
+    "aliases": [
+      "worm"
     ]
   },
   {
@@ -3617,6 +3822,12 @@
     "emoji": "🌱",
     "aliases": [
       "seedling"
+    ]
+  },
+  {
+    "emoji": "🪴",
+    "aliases": [
+      "potted_plant"
     ]
   },
   {
@@ -3772,6 +3983,12 @@
     ]
   },
   {
+    "emoji": "🫐",
+    "aliases": [
+      "blueberries"
+    ]
+  },
+  {
     "emoji": "🥝",
     "aliases": [
       "kiwi_fruit"
@@ -3781,6 +3998,12 @@
     "emoji": "🍅",
     "aliases": [
       "tomato"
+    ]
+  },
+  {
+    "emoji": "🫒",
+    "aliases": [
+      "olive"
     ]
   },
   {
@@ -3823,6 +4046,12 @@
     "emoji": "🌶️",
     "aliases": [
       "hot_pepper"
+    ]
+  },
+  {
+    "emoji": "🫑",
+    "aliases": [
+      "bell_pepper"
     ]
   },
   {
@@ -3889,6 +4118,12 @@
     "emoji": "🥖",
     "aliases": [
       "baguette_bread"
+    ]
+  },
+  {
+    "emoji": "🫓",
+    "aliases": [
+      "flatbread"
     ]
   },
   {
@@ -3988,6 +4223,12 @@
     ]
   },
   {
+    "emoji": "🫔",
+    "aliases": [
+      "tamale"
+    ]
+  },
+  {
     "emoji": "🥙",
     "aliases": [
       "stuffed_flatbread"
@@ -4021,6 +4262,12 @@
     "emoji": "🍲",
     "aliases": [
       "stew"
+    ]
+  },
+  {
+    "emoji": "🫕",
+    "aliases": [
+      "fondue"
     ]
   },
   {
@@ -4294,6 +4541,12 @@
     ]
   },
   {
+    "emoji": "🫖",
+    "aliases": [
+      "teapot"
+    ]
+  },
+  {
     "emoji": "🍵",
     "aliases": [
       "tea"
@@ -4357,6 +4610,12 @@
     "emoji": "🥤",
     "aliases": [
       "cup_with_straw"
+    ]
+  },
+  {
+    "emoji": "🧋",
+    "aliases": [
+      "bubble_tea"
     ]
   },
   {
@@ -4532,6 +4791,24 @@
     "emoji": "🧱",
     "aliases": [
       "bricks"
+    ]
+  },
+  {
+    "emoji": "🪨",
+    "aliases": [
+      "rock"
+    ]
+  },
+  {
+    "emoji": "🪵",
+    "aliases": [
+      "wood"
+    ]
+  },
+  {
+    "emoji": "🛖",
+    "aliases": [
+      "hut"
     ]
   },
   {
@@ -4938,6 +5215,12 @@
     ]
   },
   {
+    "emoji": "🛻",
+    "aliases": [
+      "pickup_truck"
+    ]
+  },
+  {
     "emoji": "🚚",
     "aliases": [
       "truck"
@@ -5007,6 +5290,12 @@
     "emoji": "🛹",
     "aliases": [
       "skateboard"
+    ]
+  },
+  {
+    "emoji": "🛼",
+    "aliases": [
+      "roller_skate"
     ]
   },
   {
@@ -6032,6 +6321,12 @@
     ]
   },
   {
+    "emoji": "🪄",
+    "aliases": [
+      "magic_wand"
+    ]
+  },
+  {
     "emoji": "🧿",
     "aliases": [
       "nazar_amulet"
@@ -6071,6 +6366,18 @@
     "emoji": "🧸",
     "aliases": [
       "teddy_bear"
+    ]
+  },
+  {
+    "emoji": "🪅",
+    "aliases": [
+      "pinata"
+    ]
+  },
+  {
+    "emoji": "🪆",
+    "aliases": [
+      "nesting_dolls"
     ]
   },
   {
@@ -6146,9 +6453,21 @@
     ]
   },
   {
+    "emoji": "🪡",
+    "aliases": [
+      "sewing_needle"
+    ]
+  },
+  {
     "emoji": "🧶",
     "aliases": [
       "yarn"
+    ]
+  },
+  {
+    "emoji": "🪢",
+    "aliases": [
+      "knot"
     ]
   },
   {
@@ -6303,6 +6622,12 @@
     ]
   },
   {
+    "emoji": "🩴",
+    "aliases": [
+      "thong_sandal"
+    ]
+  },
+  {
     "emoji": "👞",
     "aliases": [
       "mans_shoe",
@@ -6379,6 +6704,12 @@
     "emoji": "🧢",
     "aliases": [
       "billed_cap"
+    ]
+  },
+  {
+    "emoji": "🪖",
+    "aliases": [
+      "military_helmet"
     ]
   },
   {
@@ -6526,6 +6857,12 @@
     ]
   },
   {
+    "emoji": "🪗",
+    "aliases": [
+      "accordion"
+    ]
+  },
+  {
     "emoji": "🎸",
     "aliases": [
       "guitar"
@@ -6559,6 +6896,12 @@
     "emoji": "🥁",
     "aliases": [
       "drum"
+    ]
+  },
+  {
+    "emoji": "🪘",
+    "aliases": [
+      "long_drum"
     ]
   },
   {
@@ -6883,6 +7226,12 @@
     ]
   },
   {
+    "emoji": "🪙",
+    "aliases": [
+      "coin"
+    ]
+  },
+  {
     "emoji": "💴",
     "aliases": [
       "yen"
@@ -6931,27 +7280,15 @@
     ]
   },
   {
-    "emoji": "💱",
-    "aliases": [
-      "currency_exchange"
-    ]
-  },
-  {
-    "emoji": "💲",
-    "aliases": [
-      "heavy_dollar_sign"
-    ]
-  },
-  {
     "emoji": "✉️",
     "aliases": [
-      "email",
       "envelope"
     ]
   },
   {
     "emoji": "📧",
     "aliases": [
+      "email",
       "e-mail"
     ]
   },
@@ -7287,6 +7624,12 @@
     ]
   },
   {
+    "emoji": "🪃",
+    "aliases": [
+      "boomerang"
+    ]
+  },
+  {
     "emoji": "🏹",
     "aliases": [
       "bow_and_arrow"
@@ -7299,9 +7642,21 @@
     ]
   },
   {
+    "emoji": "🪚",
+    "aliases": [
+      "carpentry_saw"
+    ]
+  },
+  {
     "emoji": "🔧",
     "aliases": [
       "wrench"
+    ]
+  },
+  {
+    "emoji": "🪛",
+    "aliases": [
+      "screwdriver"
     ]
   },
   {
@@ -7347,6 +7702,12 @@
     ]
   },
   {
+    "emoji": "🪝",
+    "aliases": [
+      "hook"
+    ]
+  },
+  {
     "emoji": "🧰",
     "aliases": [
       "toolbox"
@@ -7356,6 +7717,12 @@
     "emoji": "🧲",
     "aliases": [
       "magnet"
+    ]
+  },
+  {
+    "emoji": "🪜",
+    "aliases": [
+      "ladder"
     ]
   },
   {
@@ -7437,6 +7804,24 @@
     ]
   },
   {
+    "emoji": "🛗",
+    "aliases": [
+      "elevator"
+    ]
+  },
+  {
+    "emoji": "🪞",
+    "aliases": [
+      "mirror"
+    ]
+  },
+  {
+    "emoji": "🪟",
+    "aliases": [
+      "window"
+    ]
+  },
+  {
     "emoji": "🛏️",
     "aliases": [
       "bed"
@@ -7461,6 +7846,12 @@
     ]
   },
   {
+    "emoji": "🪠",
+    "aliases": [
+      "plunger"
+    ]
+  },
+  {
     "emoji": "🚿",
     "aliases": [
       "shower"
@@ -7470,6 +7861,12 @@
     "emoji": "🛁",
     "aliases": [
       "bathtub"
+    ]
+  },
+  {
+    "emoji": "🪤",
+    "aliases": [
+      "mouse_trap"
     ]
   },
   {
@@ -7509,9 +7906,21 @@
     ]
   },
   {
+    "emoji": "🪣",
+    "aliases": [
+      "bucket"
+    ]
+  },
+  {
     "emoji": "🧼",
     "aliases": [
       "soap"
+    ]
+  },
+  {
+    "emoji": "🪥",
+    "aliases": [
+      "toothbrush"
     ]
   },
   {
@@ -7545,6 +7954,12 @@
     ]
   },
   {
+    "emoji": "🪦",
+    "aliases": [
+      "headstone"
+    ]
+  },
+  {
     "emoji": "⚱️",
     "aliases": [
       "funeral_urn"
@@ -7554,6 +7969,12 @@
     "emoji": "🗿",
     "aliases": [
       "moyai"
+    ]
+  },
+  {
+    "emoji": "🪧",
+    "aliases": [
+      "placard"
     ]
   },
   {
@@ -8145,15 +8566,100 @@
     ]
   },
   {
-    "emoji": "⚕️",
+    "emoji": "⚧️",
     "aliases": [
-      "medical_symbol"
+      "transgender_symbol"
+    ]
+  },
+  {
+    "emoji": "✖️",
+    "aliases": [
+      "heavy_multiplication_x"
+    ]
+  },
+  {
+    "emoji": "➕",
+    "aliases": [
+      "heavy_plus_sign"
+    ]
+  },
+  {
+    "emoji": "➖",
+    "aliases": [
+      "heavy_minus_sign"
+    ]
+  },
+  {
+    "emoji": "➗",
+    "aliases": [
+      "heavy_division_sign"
     ]
   },
   {
     "emoji": "♾️",
     "aliases": [
       "infinity"
+    ]
+  },
+  {
+    "emoji": "‼️",
+    "aliases": [
+      "bangbang"
+    ]
+  },
+  {
+    "emoji": "⁉️",
+    "aliases": [
+      "interrobang"
+    ]
+  },
+  {
+    "emoji": "❓",
+    "aliases": [
+      "question"
+    ]
+  },
+  {
+    "emoji": "❔",
+    "aliases": [
+      "grey_question"
+    ]
+  },
+  {
+    "emoji": "❕",
+    "aliases": [
+      "grey_exclamation"
+    ]
+  },
+  {
+    "emoji": "❗",
+    "aliases": [
+      "exclamation",
+      "heavy_exclamation_mark"
+    ]
+  },
+  {
+    "emoji": "〰️",
+    "aliases": [
+      "wavy_dash"
+    ]
+  },
+  {
+    "emoji": "💱",
+    "aliases": [
+      "currency_exchange"
+    ]
+  },
+  {
+    "emoji": "💲",
+    "aliases": [
+      "heavy_dollar_sign"
+    ]
+  },
+  {
+    "emoji": "⚕️",
+    "aliases": [
+      "medical_symbol"
     ]
   },
   {
@@ -8211,12 +8717,6 @@
     ]
   },
   {
-    "emoji": "✖️",
-    "aliases": [
-      "heavy_multiplication_x"
-    ]
-  },
-  {
     "emoji": "❌",
     "aliases": [
       "x"
@@ -8226,24 +8726,6 @@
     "emoji": "❎",
     "aliases": [
       "negative_squared_cross_mark"
-    ]
-  },
-  {
-    "emoji": "➕",
-    "aliases": [
-      "heavy_plus_sign"
-    ]
-  },
-  {
-    "emoji": "➖",
-    "aliases": [
-      "heavy_minus_sign"
-    ]
-  },
-  {
-    "emoji": "➗",
-    "aliases": [
-      "heavy_division_sign"
     ]
   },
   {
@@ -8280,49 +8762,6 @@
     "emoji": "❇️",
     "aliases": [
       "sparkle"
-    ]
-  },
-  {
-    "emoji": "‼️",
-    "aliases": [
-      "bangbang"
-    ]
-  },
-  {
-    "emoji": "⁉️",
-    "aliases": [
-      "interrobang"
-    ]
-  },
-  {
-    "emoji": "❓",
-    "aliases": [
-      "question"
-    ]
-  },
-  {
-    "emoji": "❔",
-    "aliases": [
-      "grey_question"
-    ]
-  },
-  {
-    "emoji": "❕",
-    "aliases": [
-      "grey_exclamation"
-    ]
-  },
-  {
-    "emoji": "❗",
-    "aliases": [
-      "exclamation",
-      "heavy_exclamation_mark"
-    ]
-  },
-  {
-    "emoji": "〰️",
-    "aliases": [
-      "wavy_dash"
     ]
   },
   {
@@ -8893,6 +9332,12 @@
     "emoji": "🏳️‍🌈",
     "aliases": [
       "rainbow_flag"
+    ]
+  },
+  {
+    "emoji": "🏳️‍⚧️",
+    "aliases": [
+      "transgender_flag"
     ]
   },
   {
