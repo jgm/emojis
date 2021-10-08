@@ -1,5 +1,5 @@
 name:                emojis
-version:             0.1.1
+version:             0.1.2
 synopsis:            Conversion between emoji characters and their names.
 description:         This package provides functions for converting
                      emoji names to emoji characters and vice versa.
