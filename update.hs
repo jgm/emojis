@@ -1,5 +1,5 @@
 #!/usr/bin/env stack
--- stack --resolver lts-18.10 script --package aeson --package megaparsec --package bytestring --package pretty-show --package pretty
+-- stack --resolver lts-18.10 script --package text --package aeson --package megaparsec --package bytestring --package pretty-show --package pretty
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Aeson
 import qualified Data.ByteString.Lazy as B
