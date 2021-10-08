@@ -1,7 +1,14 @@
 {-# LANGUAGE CPP #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE OverloadedStrings #-}
-module Text.Emoji ( emojis, emojiFromAlias, aliasesFromEmoji ) where
+module Text.Emoji
+( emojis
+, emojiFromAlias
+, aliasesFromEmoji
+, baseEmojis
+, zwjEmojis
+) where
+
 import Prelude
 import qualified Data.Map as M
 import Data.Text (Text)
@@ -27,4 +34,12 @@ aliasesFromEmoji s = M.lookup s emojiAliasMap
 -- | Association list of (alias, emoji) pairs.  Note that the
 -- same emoji may have multiple aliases.
 emojis :: [(Text, Text)]
+
+-- | A list of all valid emoji (not containing zero-width joiners), taken from
+-- the Unicode Emoji Specification.
+baseEmojis :: [Text]
+
+-- | A list of all valid emoji built from zero-width joiners, taken from the
+-- Unicode Emoji Specification.
+zwjEmojis :: [Text]
 #include "emojis.inc"
