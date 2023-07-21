@@ -61,6 +61,12 @@
     ]
   },
   {
+    "emoji": "🫠",
+    "aliases": [
+      "melting_face"
+    ]
+  },
+  {
     "emoji": "😉",
     "aliases": [
       "wink"
@@ -181,6 +187,18 @@
     ]
   },
   {
+    "emoji": "🫢",
+    "aliases": [
+      "face_with_open_eyes_and_hand_over_mouth"
+    ]
+  },
+  {
+    "emoji": "🫣",
+    "aliases": [
+      "face_with_peeking_eye"
+    ]
+  },
+  {
     "emoji": "🤫",
     "aliases": [
       "shushing_face"
@@ -190,6 +208,12 @@
     "emoji": "🤔",
     "aliases": [
       "thinking"
+    ]
+  },
+  {
+    "emoji": "🫡",
+    "aliases": [
+      "saluting_face"
     ]
   },
   {
@@ -220,6 +244,12 @@
     "emoji": "😶",
     "aliases": [
       "no_mouth"
+    ]
+  },
+  {
+    "emoji": "🫥",
+    "aliases": [
+      "dotted_line_face"
     ]
   },
   {
@@ -262,6 +292,12 @@
     "emoji": "🤥",
     "aliases": [
       "lying_face"
+    ]
+  },
+  {
+    "emoji": "🫨",
+    "aliases": [
+      "shaking_face"
     ]
   },
   {
@@ -409,6 +445,12 @@
     ]
   },
   {
+    "emoji": "🫤",
+    "aliases": [
+      "face_with_diagonal_mouth"
+    ]
+  },
+  {
     "emoji": "😟",
     "aliases": [
       "worried"
@@ -454,6 +496,12 @@
     "emoji": "🥺",
     "aliases": [
       "pleading_face"
+    ]
+  },
+  {
+    "emoji": "🥹",
+    "aliases": [
+      "face_holding_back_tears"
     ]
   },
   {
@@ -718,12 +766,6 @@
     ]
   },
   {
-    "emoji": "💋",
-    "aliases": [
-      "kiss"
-    ]
-  },
-  {
     "emoji": "💌",
     "aliases": [
       "love_letter"
@@ -808,6 +850,12 @@
     ]
   },
   {
+    "emoji": "🩷",
+    "aliases": [
+      "pink_heart"
+    ]
+  },
+  {
     "emoji": "🧡",
     "aliases": [
       "orange_heart"
@@ -832,6 +880,12 @@
     ]
   },
   {
+    "emoji": "🩵",
+    "aliases": [
+      "light_blue_heart"
+    ]
+  },
+  {
     "emoji": "💜",
     "aliases": [
       "purple_heart"
@@ -850,9 +904,21 @@
     ]
   },
   {
+    "emoji": "🩶",
+    "aliases": [
+      "grey_heart"
+    ]
+  },
+  {
     "emoji": "🤍",
     "aliases": [
       "white_heart"
+    ]
+  },
+  {
+    "emoji": "💋",
+    "aliases": [
+      "kiss"
     ]
   },
   {
@@ -896,12 +962,6 @@
     "emoji": "🕳️",
     "aliases": [
       "hole"
-    ]
-  },
-  {
-    "emoji": "💣",
-    "aliases": [
-      "bomb"
     ]
   },
   {
@@ -972,6 +1032,42 @@
     ]
   },
   {
+    "emoji": "🫱",
+    "aliases": [
+      "rightwards_hand"
+    ]
+  },
+  {
+    "emoji": "🫲",
+    "aliases": [
+      "leftwards_hand"
+    ]
+  },
+  {
+    "emoji": "🫳",
+    "aliases": [
+      "palm_down_hand"
+    ]
+  },
+  {
+    "emoji": "🫴",
+    "aliases": [
+      "palm_up_hand"
+    ]
+  },
+  {
+    "emoji": "🫷",
+    "aliases": [
+      "leftwards_pushing_hand"
+    ]
+  },
+  {
+    "emoji": "🫸",
+    "aliases": [
+      "rightwards_pushing_hand"
+    ]
+  },
+  {
     "emoji": "👌",
     "aliases": [
       "ok_hand"
@@ -999,6 +1095,12 @@
     "emoji": "🤞",
     "aliases": [
       "crossed_fingers"
+    ]
+  },
+  {
+    "emoji": "🫰",
+    "aliases": [
+      "hand_with_index_finger_and_thumb_crossed"
     ]
   },
   {
@@ -1057,6 +1159,12 @@
     ]
   },
   {
+    "emoji": "🫵",
+    "aliases": [
+      "index_pointing_at_the_viewer"
+    ]
+  },
+  {
     "emoji": "👍",
     "aliases": [
       "+1",
@@ -1107,6 +1215,12 @@
     "emoji": "🙌",
     "aliases": [
       "raised_hands"
+    ]
+  },
+  {
+    "emoji": "🫶",
+    "aliases": [
+      "heart_hands"
     ]
   },
   {
@@ -1251,6 +1365,12 @@
     "emoji": "👄",
     "aliases": [
       "lips"
+    ]
+  },
+  {
+    "emoji": "🫦",
+    "aliases": [
+      "biting_lip"
     ]
   },
   {
@@ -1975,6 +2095,12 @@
     ]
   },
   {
+    "emoji": "🫅",
+    "aliases": [
+      "person_with_crown"
+    ]
+  },
+  {
     "emoji": "🤴",
     "aliases": [
       "prince"
@@ -2057,6 +2183,18 @@
     "emoji": "🤰",
     "aliases": [
       "pregnant_woman"
+    ]
+  },
+  {
+    "emoji": "🫃",
+    "aliases": [
+      "pregnant_man"
+    ]
+  },
+  {
+    "emoji": "🫄",
+    "aliases": [
+      "pregnant_person"
     ]
   },
   {
@@ -2267,6 +2405,12 @@
     "emoji": "🧟‍♀️",
     "aliases": [
       "zombie_woman"
+    ]
+  },
+  {
+    "emoji": "🧌",
+    "aliases": [
+      "troll"
     ]
   },
   {
@@ -3174,6 +3318,18 @@
     ]
   },
   {
+    "emoji": "🫎",
+    "aliases": [
+      "moose"
+    ]
+  },
+  {
+    "emoji": "🫏",
+    "aliases": [
+      "donkey"
+    ]
+  },
+  {
     "emoji": "🐎",
     "aliases": [
       "racehorse"
@@ -3547,6 +3703,24 @@
     ]
   },
   {
+    "emoji": "🪽",
+    "aliases": [
+      "wing"
+    ]
+  },
+  {
+    "emoji": "🐦‍⬛",
+    "aliases": [
+      "black_bird"
+    ]
+  },
+  {
+    "emoji": "🪿",
+    "aliases": [
+      "goose"
+    ]
+  },
+  {
     "emoji": "🐸",
     "aliases": [
       "frog"
@@ -3659,6 +3833,18 @@
     "emoji": "🐚",
     "aliases": [
       "shell"
+    ]
+  },
+  {
+    "emoji": "🪸",
+    "aliases": [
+      "coral"
+    ]
+  },
+  {
+    "emoji": "🪼",
+    "aliases": [
+      "jellyfish"
     ]
   },
   {
@@ -3777,6 +3963,12 @@
     ]
   },
   {
+    "emoji": "🪷",
+    "aliases": [
+      "lotus"
+    ]
+  },
+  {
     "emoji": "🏵️",
     "aliases": [
       "rosette"
@@ -3816,6 +4008,12 @@
     "emoji": "🌷",
     "aliases": [
       "tulip"
+    ]
+  },
+  {
+    "emoji": "🪻",
+    "aliases": [
+      "hyacinth"
     ]
   },
   {
@@ -3894,6 +4092,24 @@
     "emoji": "🍃",
     "aliases": [
       "leaves"
+    ]
+  },
+  {
+    "emoji": "🪹",
+    "aliases": [
+      "empty_nest"
+    ]
+  },
+  {
+    "emoji": "🪺",
+    "aliases": [
+      "nest_with_eggs"
+    ]
+  },
+  {
+    "emoji": "🍄",
+    "aliases": [
+      "mushroom"
     ]
   },
   {
@@ -4085,21 +4301,33 @@
     ]
   },
   {
-    "emoji": "🍄",
-    "aliases": [
-      "mushroom"
-    ]
-  },
-  {
     "emoji": "🥜",
     "aliases": [
       "peanuts"
     ]
   },
   {
+    "emoji": "🫘",
+    "aliases": [
+      "beans"
+    ]
+  },
+  {
     "emoji": "🌰",
     "aliases": [
       "chestnut"
+    ]
+  },
+  {
+    "emoji": "🫚",
+    "aliases": [
+      "ginger_root"
+    ]
+  },
+  {
+    "emoji": "🫛",
+    "aliases": [
+      "pea_pod"
     ]
   },
   {
@@ -4607,6 +4835,12 @@
     ]
   },
   {
+    "emoji": "🫗",
+    "aliases": [
+      "pouring_liquid"
+    ]
+  },
+  {
     "emoji": "🥤",
     "aliases": [
       "cup_with_straw"
@@ -4665,6 +4899,12 @@
     "aliases": [
       "hocho",
       "knife"
+    ]
+  },
+  {
+    "emoji": "🫙",
+    "aliases": [
+      "jar"
     ]
   },
   {
@@ -5040,6 +5280,12 @@
     ]
   },
   {
+    "emoji": "🛝",
+    "aliases": [
+      "playground_slide"
+    ]
+  },
+  {
     "emoji": "🎡",
     "aliases": [
       "ferris_wheel"
@@ -5329,6 +5575,12 @@
     ]
   },
   {
+    "emoji": "🛞",
+    "aliases": [
+      "wheel"
+    ]
+  },
+  {
     "emoji": "🚨",
     "aliases": [
       "rotating_light"
@@ -5362,6 +5614,12 @@
     "emoji": "⚓",
     "aliases": [
       "anchor"
+    ]
+  },
+  {
+    "emoji": "🛟",
+    "aliases": [
+      "ring_buoy"
     ]
   },
   {
@@ -6309,6 +6567,12 @@
     ]
   },
   {
+    "emoji": "🔫",
+    "aliases": [
+      "gun"
+    ]
+  },
+  {
     "emoji": "🎱",
     "aliases": [
       "8ball"
@@ -6324,12 +6588,6 @@
     "emoji": "🪄",
     "aliases": [
       "magic_wand"
-    ]
-  },
-  {
-    "emoji": "🧿",
-    "aliases": [
-      "nazar_amulet"
     ]
   },
   {
@@ -6372,6 +6630,12 @@
     "emoji": "🪅",
     "aliases": [
       "pinata"
+    ]
+  },
+  {
+    "emoji": "🪩",
+    "aliases": [
+      "mirror_ball"
     ]
   },
   {
@@ -6592,6 +6856,12 @@
     ]
   },
   {
+    "emoji": "🪭",
+    "aliases": [
+      "folding_hand_fan"
+    ]
+  },
+  {
     "emoji": "👛",
     "aliases": [
       "purse"
@@ -6674,6 +6944,12 @@
     "emoji": "👢",
     "aliases": [
       "boot"
+    ]
+  },
+  {
+    "emoji": "🪮",
+    "aliases": [
+      "hair_pick"
     ]
   },
   {
@@ -6905,6 +7181,18 @@
     ]
   },
   {
+    "emoji": "🪇",
+    "aliases": [
+      "maracas"
+    ]
+  },
+  {
+    "emoji": "🪈",
+    "aliases": [
+      "flute"
+    ]
+  },
+  {
     "emoji": "📱",
     "aliases": [
       "iphone"
@@ -6945,6 +7233,12 @@
     "emoji": "🔋",
     "aliases": [
       "battery"
+    ]
+  },
+  {
+    "emoji": "🪫",
+    "aliases": [
+      "low_battery"
     ]
   },
   {
@@ -7618,9 +7912,9 @@
     ]
   },
   {
-    "emoji": "🔫",
+    "emoji": "💣",
     "aliases": [
-      "gun"
+      "bomb"
     ]
   },
   {
@@ -7792,9 +8086,21 @@
     ]
   },
   {
+    "emoji": "🩼",
+    "aliases": [
+      "crutch"
+    ]
+  },
+  {
     "emoji": "🩺",
     "aliases": [
       "stethoscope"
+    ]
+  },
+  {
+    "emoji": "🩻",
+    "aliases": [
+      "x_ray"
     ]
   },
   {
@@ -7918,6 +8224,12 @@
     ]
   },
   {
+    "emoji": "🫧",
+    "aliases": [
+      "bubbles"
+    ]
+  },
+  {
     "emoji": "🪥",
     "aliases": [
       "toothbrush"
@@ -7966,6 +8278,18 @@
     ]
   },
   {
+    "emoji": "🧿",
+    "aliases": [
+      "nazar_amulet"
+    ]
+  },
+  {
+    "emoji": "🪬",
+    "aliases": [
+      "hamsa"
+    ]
+  },
+  {
     "emoji": "🗿",
     "aliases": [
       "moyai"
@@ -7975,6 +8299,12 @@
     "emoji": "🪧",
     "aliases": [
       "placard"
+    ]
+  },
+  {
+    "emoji": "🪪",
+    "aliases": [
+      "identification_card"
     ]
   },
   {
@@ -8332,6 +8662,12 @@
     ]
   },
   {
+    "emoji": "🪯",
+    "aliases": [
+      "khanda"
+    ]
+  },
+  {
     "emoji": "♈",
     "aliases": [
       "aries"
@@ -8542,6 +8878,12 @@
     ]
   },
   {
+    "emoji": "🛜",
+    "aliases": [
+      "wireless"
+    ]
+  },
+  {
     "emoji": "📳",
     "aliases": [
       "vibration_mode"
@@ -8593,6 +8935,12 @@
     "emoji": "➗",
     "aliases": [
       "heavy_division_sign"
+    ]
+  },
+  {
+    "emoji": "🟰",
+    "aliases": [
+      "heavy_equals_sign"
     ]
   },
   {

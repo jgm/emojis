@@ -10,6 +10,7 @@ emojis =
   , ( "joy" , "\128514" )
   , ( "slightly_smiling_face" , "\128578" )
   , ( "upside_down_face" , "\128579" )
+  , ( "melting_face" , "\129760" )
   , ( "wink" , "\128521" )
   , ( "blush" , "\128522" )
   , ( "innocent" , "\128519" )
@@ -30,13 +31,17 @@ emojis =
   , ( "money_mouth_face" , "\129297" )
   , ( "hugs" , "\129303" )
   , ( "hand_over_mouth" , "\129325" )
+  , ( "face_with_open_eyes_and_hand_over_mouth" , "\129762" )
+  , ( "face_with_peeking_eye" , "\129763" )
   , ( "shushing_face" , "\129323" )
   , ( "thinking" , "\129300" )
+  , ( "saluting_face" , "\129761" )
   , ( "zipper_mouth_face" , "\129296" )
   , ( "raised_eyebrow" , "\129320" )
   , ( "neutral_face" , "\128528" )
   , ( "expressionless" , "\128529" )
   , ( "no_mouth" , "\128566" )
+  , ( "dotted_line_face" , "\129765" )
   , ( "face_in_clouds" , "\128566\8205\127787\65039" )
   , ( "smirk" , "\128527" )
   , ( "unamused" , "\128530" )
@@ -44,6 +49,7 @@ emojis =
   , ( "grimacing" , "\128556" )
   , ( "face_exhaling" , "\128558\8205\128168" )
   , ( "lying_face" , "\129317" )
+  , ( "shaking_face" , "\129768" )
   , ( "relieved" , "\128524" )
   , ( "pensive" , "\128532" )
   , ( "sleepy" , "\128554" )
@@ -68,6 +74,7 @@ emojis =
   , ( "nerd_face" , "\129299" )
   , ( "monocle_face" , "\129488" )
   , ( "confused" , "\128533" )
+  , ( "face_with_diagonal_mouth" , "\129764" )
   , ( "worried" , "\128543" )
   , ( "slightly_frowning_face" , "\128577" )
   , ( "frowning_face" , "\9785\65039" )
@@ -76,6 +83,7 @@ emojis =
   , ( "astonished" , "\128562" )
   , ( "flushed" , "\128563" )
   , ( "pleading_face" , "\129402" )
+  , ( "face_holding_back_tears" , "\129401" )
   , ( "frowning" , "\128550" )
   , ( "anguished" , "\128551" )
   , ( "fearful" , "\128552" )
@@ -122,7 +130,6 @@ emojis =
   , ( "see_no_evil" , "\128584" )
   , ( "hear_no_evil" , "\128585" )
   , ( "speak_no_evil" , "\128586" )
-  , ( "kiss" , "\128139" )
   , ( "love_letter" , "\128140" )
   , ( "cupid" , "\128152" )
   , ( "gift_heart" , "\128157" )
@@ -137,14 +144,18 @@ emojis =
   , ( "heart_on_fire" , "\10084\65039\8205\128293" )
   , ( "mending_heart" , "\10084\65039\8205\129657" )
   , ( "heart" , "\10084\65039" )
+  , ( "pink_heart" , "\129655" )
   , ( "orange_heart" , "\129505" )
   , ( "yellow_heart" , "\128155" )
   , ( "green_heart" , "\128154" )
   , ( "blue_heart" , "\128153" )
+  , ( "light_blue_heart" , "\129653" )
   , ( "purple_heart" , "\128156" )
   , ( "brown_heart" , "\129294" )
   , ( "black_heart" , "\128420" )
+  , ( "grey_heart" , "\129654" )
   , ( "white_heart" , "\129293" )
+  , ( "kiss" , "\128139" )
   , ( "100" , "\128175" )
   , ( "anger" , "\128162" )
   , ( "boom" , "\128165" )
@@ -153,7 +164,6 @@ emojis =
   , ( "sweat_drops" , "\128166" )
   , ( "dash" , "\128168" )
   , ( "hole" , "\128371\65039" )
-  , ( "bomb" , "\128163" )
   , ( "speech_balloon" , "\128172" )
   , ( "eye_speech_bubble" , "\128065\65039\8205\128488\65039" )
   , ( "left_speech_bubble" , "\128488\65039" )
@@ -166,11 +176,18 @@ emojis =
   , ( "hand" , "\9995" )
   , ( "raised_hand" , "\9995" )
   , ( "vulcan_salute" , "\128406" )
+  , ( "rightwards_hand" , "\129777" )
+  , ( "leftwards_hand" , "\129778" )
+  , ( "palm_down_hand" , "\129779" )
+  , ( "palm_up_hand" , "\129780" )
+  , ( "leftwards_pushing_hand" , "\129783" )
+  , ( "rightwards_pushing_hand" , "\129784" )
   , ( "ok_hand" , "\128076" )
   , ( "pinched_fingers" , "\129292" )
   , ( "pinching_hand" , "\129295" )
   , ( "v" , "\9996\65039" )
   , ( "crossed_fingers" , "\129310" )
+  , ( "hand_with_index_finger_and_thumb_crossed" , "\129776" )
   , ( "love_you_gesture" , "\129311" )
   , ( "metal" , "\129304" )
   , ( "call_me_hand" , "\129305" )
@@ -181,6 +198,7 @@ emojis =
   , ( "fu" , "\128405" )
   , ( "point_down" , "\128071" )
   , ( "point_up" , "\9757\65039" )
+  , ( "index_pointing_at_the_viewer" , "\129781" )
   , ( "+1" , "\128077" )
   , ( "thumbsup" , "\128077" )
   , ( "-1" , "\128078" )
@@ -194,6 +212,7 @@ emojis =
   , ( "fist_right" , "\129308" )
   , ( "clap" , "\128079" )
   , ( "raised_hands" , "\128588" )
+  , ( "heart_hands" , "\129782" )
   , ( "open_hands" , "\128080" )
   , ( "palms_up_together" , "\129330" )
   , ( "handshake" , "\129309" )
@@ -218,6 +237,7 @@ emojis =
   , ( "eye" , "\128065\65039" )
   , ( "tongue" , "\128069" )
   , ( "lips" , "\128068" )
+  , ( "biting_lip" , "\129766" )
   , ( "baby" , "\128118" )
   , ( "child" , "\129490" )
   , ( "boy" , "\128102" )
@@ -344,6 +364,7 @@ emojis =
   , ( "construction_worker" , "\128119" )
   , ( "construction_worker_man" , "\128119\8205\9794\65039" )
   , ( "construction_worker_woman" , "\128119\8205\9792\65039" )
+  , ( "person_with_crown" , "\129733" )
   , ( "prince" , "\129332" )
   , ( "princess" , "\128120" )
   , ( "person_with_turban" , "\128115" )
@@ -359,6 +380,8 @@ emojis =
   , ( "woman_with_veil" , "\128112\8205\9792\65039" )
   , ( "bride_with_veil" , "\128112\8205\9792\65039" )
   , ( "pregnant_woman" , "\129328" )
+  , ( "pregnant_man" , "\129731" )
+  , ( "pregnant_person" , "\129732" )
   , ( "breast_feeding" , "\129329" )
   , ( "woman_feeding_baby" , "\128105\8205\127868" )
   , ( "man_feeding_baby" , "\128104\8205\127868" )
@@ -394,6 +417,7 @@ emojis =
   , ( "zombie" , "\129503" )
   , ( "zombie_man" , "\129503\8205\9794\65039" )
   , ( "zombie_woman" , "\129503\8205\9792\65039" )
+  , ( "troll" , "\129484" )
   , ( "massage" , "\128134" )
   , ( "massage_man" , "\128134\8205\9794\65039" )
   , ( "massage_woman" , "\128134\8205\9792\65039" )
@@ -578,6 +602,8 @@ emojis =
   , ( "tiger2" , "\128005" )
   , ( "leopard" , "\128006" )
   , ( "horse" , "\128052" )
+  , ( "moose" , "\129742" )
+  , ( "donkey" , "\129743" )
   , ( "racehorse" , "\128014" )
   , ( "unicorn" , "\129412" )
   , ( "zebra" , "\129427" )
@@ -641,6 +667,9 @@ emojis =
   , ( "flamingo" , "\129449" )
   , ( "peacock" , "\129434" )
   , ( "parrot" , "\129436" )
+  , ( "wing" , "\129725" )
+  , ( "black_bird" , "\128038\8205\11035" )
+  , ( "goose" , "\129727" )
   , ( "frog" , "\128056" )
   , ( "crocodile" , "\128010" )
   , ( "turtle" , "\128034" )
@@ -661,6 +690,8 @@ emojis =
   , ( "shark" , "\129416" )
   , ( "octopus" , "\128025" )
   , ( "shell" , "\128026" )
+  , ( "coral" , "\129720" )
+  , ( "jellyfish" , "\129724" )
   , ( "snail" , "\128012" )
   , ( "butterfly" , "\129419" )
   , ( "bug" , "\128027" )
@@ -681,6 +712,7 @@ emojis =
   , ( "bouquet" , "\128144" )
   , ( "cherry_blossom" , "\127800" )
   , ( "white_flower" , "\128174" )
+  , ( "lotus" , "\129719" )
   , ( "rosette" , "\127989\65039" )
   , ( "rose" , "\127801" )
   , ( "wilted_flower" , "\129344" )
@@ -688,6 +720,7 @@ emojis =
   , ( "sunflower" , "\127803" )
   , ( "blossom" , "\127804" )
   , ( "tulip" , "\127799" )
+  , ( "hyacinth" , "\129723" )
   , ( "seedling" , "\127793" )
   , ( "potted_plant" , "\129716" )
   , ( "evergreen_tree" , "\127794" )
@@ -701,6 +734,9 @@ emojis =
   , ( "maple_leaf" , "\127809" )
   , ( "fallen_leaf" , "\127810" )
   , ( "leaves" , "\127811" )
+  , ( "empty_nest" , "\129721" )
+  , ( "nest_with_eggs" , "\129722" )
+  , ( "mushroom" , "\127812" )
   , ( "grapes" , "\127815" )
   , ( "melon" , "\127816" )
   , ( "watermelon" , "\127817" )
@@ -734,9 +770,11 @@ emojis =
   , ( "broccoli" , "\129382" )
   , ( "garlic" , "\129476" )
   , ( "onion" , "\129477" )
-  , ( "mushroom" , "\127812" )
   , ( "peanuts" , "\129372" )
+  , ( "beans" , "\129752" )
   , ( "chestnut" , "\127792" )
+  , ( "ginger_root" , "\129754" )
+  , ( "pea_pod" , "\129755" )
   , ( "bread" , "\127838" )
   , ( "croissant" , "\129360" )
   , ( "baguette_bread" , "\129366" )
@@ -821,6 +859,7 @@ emojis =
   , ( "beers" , "\127867" )
   , ( "clinking_glasses" , "\129346" )
   , ( "tumbler_glass" , "\129347" )
+  , ( "pouring_liquid" , "\129751" )
   , ( "cup_with_straw" , "\129380" )
   , ( "bubble_tea" , "\129483" )
   , ( "beverage_box" , "\129475" )
@@ -832,6 +871,7 @@ emojis =
   , ( "spoon" , "\129348" )
   , ( "hocho" , "\128298" )
   , ( "knife" , "\128298" )
+  , ( "jar" , "\129753" )
   , ( "amphora" , "\127994" )
   , ( "earth_africa" , "\127757" )
   , ( "earth_americas" , "\127758" )
@@ -894,6 +934,7 @@ emojis =
   , ( "bridge_at_night" , "\127753" )
   , ( "hotsprings" , "\9832\65039" )
   , ( "carousel_horse" , "\127904" )
+  , ( "playground_slide" , "\128733" )
   , ( "ferris_wheel" , "\127905" )
   , ( "roller_coaster" , "\127906" )
   , ( "barber" , "\128136" )
@@ -943,12 +984,14 @@ emojis =
   , ( "railway_track" , "\128740\65039" )
   , ( "oil_drum" , "\128738\65039" )
   , ( "fuelpump" , "\9981" )
+  , ( "wheel" , "\128734" )
   , ( "rotating_light" , "\128680" )
   , ( "traffic_light" , "\128677" )
   , ( "vertical_traffic_light" , "\128678" )
   , ( "stop_sign" , "\128721" )
   , ( "construction" , "\128679" )
   , ( "anchor" , "\9875" )
+  , ( "ring_buoy" , "\128735" )
   , ( "boat" , "\9973" )
   , ( "sailboat" , "\9973" )
   , ( "canoe" , "\128758" )
@@ -1108,10 +1151,10 @@ emojis =
   , ( "dart" , "\127919" )
   , ( "yo_yo" , "\129664" )
   , ( "kite" , "\129665" )
+  , ( "gun" , "\128299" )
   , ( "8ball" , "\127921" )
   , ( "crystal_ball" , "\128302" )
   , ( "magic_wand" , "\129668" )
-  , ( "nazar_amulet" , "\129535" )
   , ( "video_game" , "\127918" )
   , ( "joystick" , "\128377\65039" )
   , ( "slot_machine" , "\127920" )
@@ -1119,6 +1162,7 @@ emojis =
   , ( "jigsaw" , "\129513" )
   , ( "teddy_bear" , "\129528" )
   , ( "pinata" , "\129669" )
+  , ( "mirror_ball" , "\129705" )
   , ( "nesting_dolls" , "\129670" )
   , ( "spades" , "\9824\65039" )
   , ( "hearts" , "\9829\65039" )
@@ -1156,6 +1200,7 @@ emojis =
   , ( "shorts" , "\129651" )
   , ( "bikini" , "\128089" )
   , ( "womans_clothes" , "\128090" )
+  , ( "folding_hand_fan" , "\129709" )
   , ( "purse" , "\128091" )
   , ( "handbag" , "\128092" )
   , ( "pouch" , "\128093" )
@@ -1171,6 +1216,7 @@ emojis =
   , ( "sandal" , "\128097" )
   , ( "ballet_shoes" , "\129648" )
   , ( "boot" , "\128098" )
+  , ( "hair_pick" , "\129710" )
   , ( "crown" , "\128081" )
   , ( "womans_hat" , "\128082" )
   , ( "tophat" , "\127913" )
@@ -1209,6 +1255,8 @@ emojis =
   , ( "banjo" , "\129685" )
   , ( "drum" , "\129345" )
   , ( "long_drum" , "\129688" )
+  , ( "maracas" , "\129671" )
+  , ( "flute" , "\129672" )
   , ( "iphone" , "\128241" )
   , ( "calling" , "\128242" )
   , ( "phone" , "\9742\65039" )
@@ -1217,6 +1265,7 @@ emojis =
   , ( "pager" , "\128223" )
   , ( "fax" , "\128224" )
   , ( "battery" , "\128267" )
+  , ( "low_battery" , "\129707" )
   , ( "electric_plug" , "\128268" )
   , ( "computer" , "\128187" )
   , ( "desktop_computer" , "\128421\65039" )
@@ -1332,7 +1381,7 @@ emojis =
   , ( "hammer_and_wrench" , "\128736\65039" )
   , ( "dagger" , "\128481\65039" )
   , ( "crossed_swords" , "\9876\65039" )
-  , ( "gun" , "\128299" )
+  , ( "bomb" , "\128163" )
   , ( "boomerang" , "\129667" )
   , ( "bow_and_arrow" , "\127993" )
   , ( "shield" , "\128737\65039" )
@@ -1361,7 +1410,9 @@ emojis =
   , ( "drop_of_blood" , "\129656" )
   , ( "pill" , "\128138" )
   , ( "adhesive_bandage" , "\129657" )
+  , ( "crutch" , "\129660" )
   , ( "stethoscope" , "\129658" )
+  , ( "x_ray" , "\129659" )
   , ( "door" , "\128682" )
   , ( "elevator" , "\128727" )
   , ( "mirror" , "\129694" )
@@ -1382,6 +1433,7 @@ emojis =
   , ( "roll_of_paper" , "\129531" )
   , ( "bucket" , "\129699" )
   , ( "soap" , "\129532" )
+  , ( "bubbles" , "\129767" )
   , ( "toothbrush" , "\129701" )
   , ( "sponge" , "\129533" )
   , ( "fire_extinguisher" , "\129519" )
@@ -1390,8 +1442,11 @@ emojis =
   , ( "coffin" , "\9904\65039" )
   , ( "headstone" , "\129702" )
   , ( "funeral_urn" , "\9905\65039" )
+  , ( "nazar_amulet" , "\129535" )
+  , ( "hamsa" , "\129708" )
   , ( "moyai" , "\128511" )
   , ( "placard" , "\129703" )
+  , ( "identification_card" , "\129706" )
   , ( "atm" , "\127975" )
   , ( "put_litter_in_its_place" , "\128686" )
   , ( "potable_water" , "\128688" )
@@ -1451,6 +1506,7 @@ emojis =
   , ( "peace_symbol" , "\9774\65039" )
   , ( "menorah" , "\128334" )
   , ( "six_pointed_star" , "\128303" )
+  , ( "khanda" , "\129711" )
   , ( "aries" , "\9800" )
   , ( "taurus" , "\9801" )
   , ( "gemini" , "\9802" )
@@ -1486,6 +1542,7 @@ emojis =
   , ( "low_brightness" , "\128261" )
   , ( "high_brightness" , "\128262" )
   , ( "signal_strength" , "\128246" )
+  , ( "wireless" , "\128732" )
   , ( "vibration_mode" , "\128243" )
   , ( "mobile_phone_off" , "\128244" )
   , ( "female_sign" , "\9792\65039" )
@@ -1495,6 +1552,7 @@ emojis =
   , ( "heavy_plus_sign" , "\10133" )
   , ( "heavy_minus_sign" , "\10134" )
   , ( "heavy_division_sign" , "\10135" )
+  , ( "heavy_equals_sign" , "\129008" )
   , ( "infinity" , "\9854\65039" )
   , ( "bangbang" , "\8252\65039" )
   , ( "interrobang" , "\8265\65039" )
@@ -2692,6 +2750,7 @@ baseEmojis =
   , "\128725"
   , "\128726"
   , "\128727"
+  , "\128732"
   , "\128733"
   , "\128734"
   , "\128735"
@@ -2966,6 +3025,9 @@ baseEmojis =
   , "\129650"
   , "\129651"
   , "\129652"
+  , "\129653"
+  , "\129654"
+  , "\129655"
   , "\129656"
   , "\129657"
   , "\129658"
@@ -2978,6 +3040,8 @@ baseEmojis =
   , "\129668"
   , "\129669"
   , "\129670"
+  , "\129671"
+  , "\129672"
   , "\129680"
   , "\129681"
   , "\129682"
@@ -3007,6 +3071,9 @@ baseEmojis =
   , "\129706"
   , "\129707"
   , "\129708"
+  , "\129709"
+  , "\129710"
+  , "\129711"
   , "\129712"
   , "\129713"
   , "\129714"
@@ -3018,12 +3085,18 @@ baseEmojis =
   , "\129720"
   , "\129721"
   , "\129722"
+  , "\129723"
+  , "\129724"
+  , "\129725"
+  , "\129727"
   , "\129728"
   , "\129729"
   , "\129730"
   , "\129731"
   , "\129732"
   , "\129733"
+  , "\129742"
+  , "\129743"
   , "\129744"
   , "\129745"
   , "\129746"
@@ -3034,6 +3107,8 @@ baseEmojis =
   , "\129751"
   , "\129752"
   , "\129753"
+  , "\129754"
+  , "\129755"
   , "\129760"
   , "\129761"
   , "\129762"
@@ -3042,6 +3117,7 @@ baseEmojis =
   , "\129765"
   , "\129766"
   , "\129767"
+  , "\129768"
   , "\129776"
   , "\129777"
   , "\129778"
@@ -3049,6 +3125,8 @@ baseEmojis =
   , "\129780"
   , "\129781"
   , "\129782"
+  , "\129783"
+  , "\129784"
   , "\169\65039"
   , "\174\65039"
   , "\8252\65039"
@@ -4174,6 +4252,16 @@ baseEmojis =
   , "\129782\127997"
   , "\129782\127998"
   , "\129782\127999"
+  , "\129783\127995"
+  , "\129783\127996"
+  , "\129783\127997"
+  , "\129783\127998"
+  , "\129783\127999"
+  , "\129784\127995"
+  , "\129784\127996"
+  , "\129784\127997"
+  , "\129784\127998"
+  , "\129784\127999"
   ]
 zwjEmojis =
   [ "\128104\8205\10084\65039\8205\128104"
@@ -5519,6 +5607,7 @@ zwjEmojis =
   , "\127988\8205\9760\65039"
   , "\128008\8205\11035"
   , "\128021\8205\129466"
+  , "\128038\8205\11035"
   , "\128059\8205\10052\65039"
   , "\128065\65039\8205\128488\65039"
   , "\128558\8205\128168"

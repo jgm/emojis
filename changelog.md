@@ -16,3 +16,6 @@
     complete list of emojis, including emojis for which gemoji
     provides no alias (Stephen Morgan).
 
+# 0.1.3
+
+  * Update emoji data to Unicode Emoji 15.0 and aliases from gemoji.
