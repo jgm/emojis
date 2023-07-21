@@ -4,9 +4,8 @@ all: src/Text/emojis.inc
 src/Text/emojis.inc: datafiles
 	./update.hs > $@
 
-# Unicode 14.0 is not yet the latest
-unicodeVersion = 14.0
-#unicodeVersion = latest
+# 'latest' is 15.0 as of 2023-07-22.
+unicodeVersion = latest
 
 datafiles: emoji.json emoji-sequences.txt emoji-zwj-sequences.txt
 
