@@ -1,5 +1,5 @@
 all: src/Text/emojis.inc
-	stack test
+	cabal test
 
 src/Text/emojis.inc: datafiles
 	./update.hs > $@
