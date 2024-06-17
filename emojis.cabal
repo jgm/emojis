@@ -27,11 +27,10 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Text.Emoji
+  other-modules:       Trie
   build-depends:       base >= 4.13 && < 5,
                        text,
-                       containers,
-                       bytestring,
-                       bytestring-trie
+                       containers
   default-language:    Haskell2010
   ghc-options:         -Wall -fno-warn-unused-do-bind
 

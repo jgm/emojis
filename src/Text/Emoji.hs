@@ -11,12 +11,12 @@ module Text.Emoji
 ) where
 
 import Prelude
+import Data.Char (chr, ord)
 import qualified Data.Map as M
 import Data.Text (Text)
+import qualified Data.Text as T
 import Data.Bifunctor (first)
-import qualified Data.ByteString as B
-import Data.Trie as Trie
-import Data.Text.Encoding as TE
+import Trie as Trie
 
 emojiMap :: M.Map Text Text
 emojiMap = M.fromList emojis
@@ -40,27 +40,27 @@ aliasesFromEmoji s = M.lookup s emojiAliasMap
 -- The replacement function maps an emoji and a list of emoji aliases
 -- to a replacement text.
 replaceEmojis :: (Text -> [Text] -> Text) -> Text -> Text
-replaceEmojis getReplacement = TE.decodeUtf8 . go . TE.encodeUtf8
+replaceEmojis getReplacement = fromCodePoints . go . toCodePoints
  where
-   go bs
-     | B.null bs = mempty
-     | otherwise =
-       case Trie.match emojiTrie bs of
-         Just (emojiBs, aliases, rest) ->
-           TE.encodeUtf8 (getReplacement (TE.decodeUtf8 emojiBs) aliases)
-             <> go rest
+   go [] = []
+   go (c:cs) =
+       case Trie.matchLongestPrefix emojiTrie (c:cs) of
+         Just (aliases, numcps, _subtrie) ->
+           let (consumed, remaining) = splitAt numcps (c:cs)
+            in toCodePoints (getReplacement (fromCodePoints consumed) aliases)
+                 <> go remaining
          Nothing -> -- go forward one UTF8 code point
-           let b = B.head bs
-               numbytes
-                 | b >= 0xF0 = 4
-                 | b >= 0xE0 = 3
-                 | b >= 0xC0 = 2
-                 | otherwise = 1
-            in B.take numbytes bs <> go (B.drop numbytes bs)
+           c : go cs
 
-emojiTrie :: Trie [Text]
+toCodePoints :: Text -> [Int]
+toCodePoints = map ord . T.unpack
+
+fromCodePoints :: [Int] -> Text
+fromCodePoints = T.pack . map chr
+
+emojiTrie :: Trie.Trie [Text]
 emojiTrie =
-  Trie.fromList . map (first TE.encodeUtf8) . M.toList $ emojiAliasMap
+  Trie.fromList . map (first toCodePoints) . M.toList $ emojiAliasMap
 
 -- | Association list of (alias, emoji) pairs.  Note that the
 -- same emoji may have multiple aliases.
