@@ -29,7 +29,9 @@ library
   exposed-modules:     Text.Emoji
   build-depends:       base >= 4.9 && < 5,
                        text,
-                       containers
+                       containers,
+                       bytestring,
+                       bytestring-trie
   default-language:    Haskell2010
   ghc-options:         -Wall -fno-warn-unused-do-bind
 

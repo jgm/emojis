@@ -14,4 +14,8 @@ tests = TestList $ map TestCase
   , assertEqual "emoji name from nonexistent" Nothing (emojiFromAlias "saotehusatnoeus")
   , assertEqual "aliases from nonexistent emoji" Nothing (aliasesFromEmoji "oo")
   , assertEqual "aliases from emoji" (Just ["rage", "pout"]) (aliasesFromEmoji "😡")
+  , assertEqual "replaced emojis" "my rage(😡) is 100(💯)"
+    (replaceEmojis (\txt aliases -> case aliases of
+                                      [] -> txt
+                                      (a:_) -> a <> "(" <> txt <> ")") "my 😡 is 💯")
   ]
