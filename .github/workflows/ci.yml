@@ -36,4 +36,5 @@ jobs:
         ghcup install cabal --set ${{ matrix.versions.cabal }}
     - name: Build and test
       run: |
+          cabal update
           cabal test
