@@ -1,5 +1,9 @@
 # emojis
 
+# 0.1.4.1
+
+  * Use foldl' instead of foldr to avoid stack overflows.
+
 # 0.1.4
 
   * Update emoji data.

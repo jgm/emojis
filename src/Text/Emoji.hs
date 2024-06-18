@@ -17,13 +17,14 @@ import Data.Text (Text)
 import qualified Data.Text as T
 import Data.Bifunctor (first)
 import Trie as Trie
+import Data.List (foldl')
 
 emojiMap :: M.Map Text Text
 emojiMap = M.fromList emojis
 
 emojiAliasMap :: M.Map Text [Text]
 emojiAliasMap =
-  foldr (\(alias, s) m -> M.alter (go alias) s m) mempty emojis
+  foldl' (\m (alias, s) -> M.alter (go alias) s m) mempty emojis
     where
      go alias Nothing   = Just [alias]
      go alias (Just as) = Just (alias:as)
