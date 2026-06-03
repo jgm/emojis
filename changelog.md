@@ -1,5 +1,9 @@
 # emojis
 
+# (unreleased)
+
+  * Update emoji data to Emoji 17.0.
+
 # 0.1.4.1
 
   * Use foldl' instead of foldr to avoid stack overflows.
