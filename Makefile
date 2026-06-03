@@ -4,7 +4,7 @@ all: src/Text/emojis.inc
 src/Text/emojis.inc: datafiles
 	./update.hs > $@
 
-# 'latest' is 15.0 as of 2023-07-22.
+# 'latest' is 17.0 as of 2026-06-03.
 unicodeVersion = latest
 
 datafiles: emoji.json emoji-sequences.txt emoji-zwj-sequences.txt
