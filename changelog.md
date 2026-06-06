@@ -1,8 +1,11 @@
 # emojis
 
-# (unreleased)
+# 0.1.5
 
-  * Update emoji data to Emoji 17.0.
+  * Update emoji data to Emoji 17.0. Note: recent emojis have no
+    aliases, because we still derive aliases from gemoji's emoji.json,
+    which has not been updated since Emoji 15.0.
+  * Fix order of aliases (regression in 0.1.4.1, which reversed them).
 
 # 0.1.4.1
 
