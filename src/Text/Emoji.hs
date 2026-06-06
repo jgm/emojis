@@ -27,7 +27,7 @@ emojiAliasMap =
   foldl' (\m (alias, s) -> M.alter (go alias) s m) mempty emojis
     where
      go alias Nothing   = Just [alias]
-     go alias (Just as) = Just (alias:as)
+     go alias (Just as) = Just (as ++ [alias])
 
 -- | Lookup an emoji given its alias.
 emojiFromAlias :: Text -> Maybe Text
