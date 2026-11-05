@@ -17,7 +17,9 @@ import Data.Text (Text)
 import qualified Data.Text as T
 import Data.Bifunctor (first)
 import Trie as Trie
+#if !MIN_VERSION_base(4,20,0)
 import Data.List (foldl')
+#endif
 
 emojiMap :: M.Map Text Text
 emojiMap = M.fromList emojis
