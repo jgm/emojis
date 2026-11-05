@@ -1,5 +1,11 @@
 # emojis
 
+# (unreleased)
+
+  * Update emoji data to Emoji 18.0. Added emojis again have no
+    aliases, because their source has still not been updated since
+    Emoji 15.0.
+
 # 0.1.5
 
   * Update emoji data to Emoji 17.0. Note: recent emojis have no
