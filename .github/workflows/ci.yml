@@ -1,34 +1,12 @@
 name: CI tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [master]
+    tags: ['*']
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-  linux:
-
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        versions:
-          - ghc: '8.8'
-            cabal: '3.0'
-          - ghc: '8.10'
-            cabal: '3.2'
-          - ghc: '9.0'
-            cabal: '3.4'
-          - ghc: '9.2'
-            cabal: '3.4'
-          - ghc: '9.4'
-            cabal: 'latest'
-          - ghc: '9.6'
-            cabal: 'latest'
-    steps:
-    - uses: actions/checkout@v1
-    - name: Install cabal/ghc
-      run: |
-        ghcup install ghc --set ${{ matrix.versions.ghc }}
-        ghcup install cabal --set ${{ matrix.versions.cabal }}
-    - name: Build and test
-      run: |
-          cabal update
-          cabal test
+  ci:
+    uses: jgm/workflows/.github/workflows/haskell-ci.yml@main
